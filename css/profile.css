@@ -1,0 +1,270 @@
+#profile_maindiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 90px;
+  padding: 16px;
+}
+
+#about_me_sec {
+  padding: 16px;
+  background-color: rgba(16, 5, 34, 0.733);
+  color: rgb(184, 255, 184);
+  width: 700px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#about_me_sec h3 {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+#prof_imgdiv img {
+  height: 300px;
+  width: 300px;
+}
+
+#pro_info_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 16px;
+  padding-left: 60px;
+  margin: 0 auto;
+  width: 550px;
+}
+
+#pro_info_div h4 {
+  font-size: 25px;
+  float: left;
+  padding: 10px 5px;
+}
+
+#pro_info_div p {
+  font-size: 22px;
+  float: left;
+  padding: 10px 5px;
+}
+
+#prof_btns_div {
+  width: 530px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prof_btns {
+  color: black;
+  font-size: 22px;
+  padding: 10px 35px;
+  margin: 5px 10px;
+  background-color: rgb(0, 173, 216);
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.prof_btns:hover {
+  background-color: rgba(252, 158, 236, 0.705);
+}
+
+#prof_sec_div {
+  border-top: 1px solid rgba(0, 0, 0, 0.377);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+
+#user_qry_type {
+  border-right: 1px solid rgba(0, 0, 0, 0.377);
+  padding-top: 16px;
+}
+
+#user_qry_type p {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#user_qry_type p:hover {
+  transform: scale(1.06);
+}
+
+#user_qry_type .active {
+  font-size: 26px;
+  color: cornflowerblue;
+}
+
+#other_dets {
+  overflow-y: scroll;
+  height: 850px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#other_dets::-webkit-scrollbar {
+  display: none;
+}
+
+/*orders*/
+
+#order_box {
+  background-color: rgb(146, 255, 219);
+  margin: 15px 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+}
+
+#delvr_box {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+#delvr_info h4 {
+  padding: 3px 0;
+  font-size: 18px;
+  color: rgb(125, 167, 11);
+}
+
+#delvr_info p {
+  font-size: 18px;
+}
+
+#order_info_box {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  margin: 10px 0px;
+  background-color: rgb(221, 224, 224);
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+#order_image {
+  height: 130px;
+  width: 95px;
+  margin: 0 auto;
+}
+
+#order_image img {
+  height: 100%;
+  width: 100%;
+}
+
+#order_info {
+  padding: 5px 0px;
+}
+
+#order_info h3 {
+  padding: 3px 0px;
+}
+
+#order_info p {
+  padding: 3px 0px;
+}
+
+.icon {
+  padding: 5px 10px;
+  background-color: rgb(144, 212, 212);
+  border-radius: 50%;
+}
+
+/*orders*/
+
+/*coupons*/
+#copn_box {
+  background-color: rgb(146, 255, 219);
+  margin: 15px 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+}
+
+#copn_div {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+#copn_sub_div1 {
+  border-right: 1px solid rgba(0, 0, 0, 0.363);
+  text-align: center;
+}
+
+#copn_sub_div1 h4 {
+  font-size: 24px;
+  color: rgb(245, 147, 19);
+}
+
+#copn_sub_div2 p {
+  font-size: 18px;
+  padding: 3px 0;
+  margin-left: 10px;
+}
+
+#copn_box p,
+#copn_box li {
+  font-size: 18px;
+  padding: 2px 0;
+}
+
+/*coupons*/
+
+/*address*/
+
+#adrs_box {
+  padding: 16px;
+}
+
+#adrs_box h4 {
+  font-size: 26px;
+  padding: 5px 0;
+}
+
+.add_adrs {
+  font-size: 20px;
+  float: right;
+  border-radius: 3px;
+  color: rgb(193, 128, 255);
+  padding: 5px 15px;
+  box-shadow: 0px 0px 3px black;
+  cursor: pointer;
+}
+
+#adrs_box h6 {
+  font-size: 20px;
+  padding: 8px 0;
+  color: rgb(255, 155, 108);
+}
+
+#adrs_box1 {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.568);
+  padding: 12px;
+}
+
+#adrs_box1 h5 {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+#adrs_box1 p {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+#adrs_box2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.329);
+  padding-top: 10px;
+}
+
+#adrs_box2 p {
+  font-weight: 700;
+  color: rgb(193, 128, 255);
+  cursor: pointer;
+}
+/*address*/

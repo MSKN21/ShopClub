@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/nav_2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ShopClub.com</title>
+    <link rel="icon" href="../pics/sitelogo3.png" />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div id="profile_maindiv">
+      <div id="prof_sec_div">
+        <div id="user_qry_type">
+          <p onclick="insert_orders(event,0)" class="types active">
+            Orders
+            <i
+              class="fa fa-chevron-right"
+              style="font-size: 24px; color: brown; display: inline"
+            ></i>
+          </p>
+          <p onclick="insert_returns(event,0)" class="types">
+            Returns
+            <i
+              class="fa fa-chevron-right"
+              style="font-size: 24px; color: brown; display: none"
+            ></i>
+          </p>
+          <p onclick="insert_coupons(event,0)" class="types">
+            Coupons
+            <i
+              class="fa fa-chevron-right"
+              style="font-size: 24px; color: brown; display: none"
+            ></i>
+          </p>
+          <p onclick="insert_adrs(event,0)" class="types">
+            Address
+            <i
+              class="fa fa-chevron-right"
+              style="font-size: 24px; color: brown; display: none"
+            ></i>
+          </p>
+        </div>
+        <div id="other_dets"></div>
+      </div>
+      <div>
+        <div id="about_me_sec">
+          <div id="prof_imgdiv" style="text-align: center">
+            <h3>Profile Details</h3>
+            <img src="../pics/avatar.png" alt="" />
+          </div>
+
+          <div id="pro_info_div">
+            <h4>Full Name</h4>
+            <p>Sai Krupananda</p>
+            <h4>Mobile Number</h4>
+            <p>8688554605</p>
+            <h4>Email ID</h4>
+            <p>saikrupa@gmail.com</p>
+            <h4>Gender</h4>
+            <p>Male</p>
+            <h4>Date of Birth</h4>
+            <p>21/12/2001</p>
+            <h4>Location</h4>
+            <p>- not added -</p>
+            <h4>Alternate Mobile</h4>
+            <p>9133635490</p>
+          </div>
+
+          <div id="prof_btns_div">
+            <div class="prof_btns">
+              <i class="fas fa-pen" style="font-size: 24px"></i> Edit
+            </div>
+            <a href="./signin.html"><div class="prof_btns">Sign Out</div></a>
+            <div class="prof_btns">
+              <i class="fas fa-trash" style="font-size: 24px"></i> Delete
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" style="position: relative"></footer>
+  </body>
+</html>
+<script src="../js/profile.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/navbar.js"></script>

@@ -1,0 +1,174 @@
+.complete-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 90px;
+  color: bisque;
+  margin-bottom: 20px;
+}
+.image-class {
+  margin: 20px;
+}
+
+.form-class {
+  padding: 0 150px;
+}
+
+.contact_label {
+  font-size: 25px;
+}
+
+.content-class {
+  margin: 20px;
+  background-color: rgba(3, 10, 49, 0.835);
+  border-radius: 5px;
+}
+.contact-class {
+  margin: 20px;
+}
+.product-details {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.submit_btn {
+  text-align: center;
+}
+
+.submit {
+  border: none;
+  padding: 10px 0px;
+  background-color: rgb(255, 136, 100);
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: rgba(255, 136, 100, 0.671);
+}
+
+.contact-head {
+  color: cornflowerblue;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*inputs css*/
+
+#reason_txt {
+  width: auto;
+  height: 100px;
+  border: 0;
+  font-size: 25px;
+  padding: 3px 10px;
+  border-bottom: 1px solid rgb(2, 0, 2);
+  background-color: rgba(24, 0, 63, 0.726);
+  color: rgb(164, 255, 184);
+  border-radius: 5px;
+}
+#product-id:focus,
+#clothes:focus,
+#size:focus,
+#product:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(60, 255, 0);
+}
+
+#reason_txt:focus {
+  outline: none;
+}
+
+#product-id,
+#clothes,
+#size,
+#product {
+  padding: 3px 10px;
+  font-size: 25px;
+  border: 0;
+  background-color: transparent;
+  color: rgb(164, 255, 184);
+  border-bottom: 3px solid rgb(0, 255, 221);
+  cursor: pointer;
+}
+
+#clothes option,
+#size option,
+#product option {
+  background-color: rgb(5, 0, 75);
+}
+
+.radio_labl {
+  font-size: 23px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.radio_btns {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.review-class {
+  background-color: aliceblue;
+}
+
+.query_div {
+  background: rgb(34, 1, 49);
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 16px;
+  color: antiquewhite;
+}
+
+.query_div h4 {
+  font-size: 36px;
+  margin: 5px 10px;
+  margin-bottom: 30px;
+}
+
+.query_div label {
+  font-size: 26px;
+  padding: 0px 10px;
+}
+
+.query_div input {
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid bisque;
+  padding: 3px 5px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.query_div input:focus {
+  outline: none;
+}
+
+.query_div h5 {
+  font-size: 28px;
+  margin: 5px 10px;
+  margin-top: 25px;
+}
+
+#qry_btn {
+  margin-left: auto;
+  display: block;
+  background-color: azure;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  width: fit-content;
+  color: rgb(110, 173, 255);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#qry_btn:hover {
+  background-color: rgb(179, 255, 202);
+}

@@ -1,0 +1,115 @@
+.signinbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1000px;
+  background-color: rgb(92, 236, 255);
+  margin: 50px auto;
+  top: 20%;
+  transform: translateY(20%);
+  border-radius: 5px;
+}
+
+.signupbox {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  width: 1200px;
+  background-color: rgb(92, 236, 255);
+  margin: 25px auto;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+#imagesec1,
+#imagesec2 {
+  border-radius: 5px 0 0 5px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(58, 35, 0);
+  max-width: 500px;
+  background-image: url("../pics/shop.jpg");
+  background-size: 100% 100%;
+}
+
+#imagesec1 {
+  background-image: url("../pics/shop.jpg");
+}
+
+#imagesec2 {
+  max-width: 100%;
+  background-image: url("../pics/shopimg.jpg");
+}
+
+.loginform {
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+  background-color: rgb(31, 5, 54);
+  color: rgb(255, 243, 196);
+  padding: 15px 0;
+}
+
+#userlogo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: 0px 80px;
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(223, 255, 220);
+}
+
+#mail_inp:focus,
+#pass_inp:focus,
+#phno_inp:focus,
+#usr_inp:focus {
+  outline: none;
+}
+
+#mail_inp,
+#pass_inp,
+#phno_inp,
+#usr_inp {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 5px 10px;
+  letter-spacing: 0.5;
+  color: rgb(223, 255, 220);
+}
+
+#signinbtn {
+  width: 340px;
+  padding: 7px 0;
+  font-size: 18px;
+  background-color: rgb(0, 116, 145);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  color: rgb(223, 255, 220);
+  margin-top: 10px;
+}
+
+#signinbtn:hover {
+  background-color: rgba(0, 116, 145, 0.829);
+}
+
+.gapping {
+  margin: 10px 0;
+}
+
+#signinform {
+  margin-top: 20px;
+}
+
+#err {
+  display: none;
+  color: brown;
+  font-size: 18px;
+  padding: 5px 0;
+}

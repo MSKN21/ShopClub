@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/category.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/nav_2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ShopClub.com</title>
+    <link rel="icon" href="../pics/sitelogo3.png" />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div class="category_maindiv">
+      <div>
+        <h2>Category</h2>
+        <div id="sortdrop_div">
+          <h3 style="display: inline">Sort By:</h3>
+          <select name="" id="sortby">
+            <option value="Recommended">Recommended</option>
+            <option value="new">What's New</option>
+            <option value="Recomended">Popularity</option>
+            <option value="Recomended">Better Discount</option>
+            <option value="Recomended">Price: Low to High</option>
+            <option value="Recomended">Price: High to Low</option>
+            <option value="Recomended">Top Rated</option>
+          </select>
+        </div>
+      </div>
+      <div class="catg_grid">
+        <div></div>
+        <div id="catg_filters">
+          <h3>Filters</h3>
+          <div id="fltr_types">
+            <div>
+              <input
+                type="radio"
+                class="radio_btns"
+                id="all"
+                name="return_type"
+                checked
+              />
+              <label for="">ALL</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                class="radio_btns"
+                id="men"
+                name="return_type"
+              />
+              <label for="">Men</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                class="radio_btns"
+                id="women"
+                name="return_type"
+              />
+              <label for="">Women</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                class="radio_btns"
+                id="kid"
+                name="return_type"
+              />
+              <label for="">Kids</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                class="radio_btns"
+                id="home"
+                name="return_type"
+              />
+              <label for="">Home</label>
+            </div>
+          </div>
+          <div id="fltr_catgris">
+            <h6>Categories</h6>
+            <div>
+              <input type="checkbox" />
+              <label>Tshirts</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Sports Shoes</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Casual Shoes</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Shorts</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Tights</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Track Pants</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Tops</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Sweatshirts</label>
+            </div>
+          </div>
+          <div id="fltr_brnd">
+            <h6>Brands</h6>
+            <div>
+              <input type="checkbox" />
+              <label>Roadster</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Parx</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>RANDOM</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>eCraftIndia</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>KLOTTHE</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Ralph Lauren</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Gucci</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Hermes</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Louis Vuitton</label>
+            </div>
+          </div>
+          <div id="fltr_prc">
+            <h6>Price</h6>
+            <div>
+              <input type="checkbox" />
+              <label>Rs. 505 to Rs. 4778</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Rs. 4778 to Rs. 9051</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Rs. 9051 to Rs. 13324</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Rs. 13324 to Rs. 20000</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label>Rs. 20000 and Above</label>
+            </div>
+          </div>
+          <div id="fltr_color">
+            <h6>Colour</h6>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: blue"></p>
+              <label>Blue</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: navy"></p>
+              <label>Navy Blue</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: black"></p>
+              <label>Black </label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: white"></p>
+              <label>White</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: grey"></p>
+              <label>Grey</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: red"></p>
+              <label>Red</label>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p style="background-color: olive"></p>
+              <label>Olive</label>
+            </div>
+          </div>
+          <div id="fltr_disct">
+            <h6>Discount Range</h6>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">10% and above</label>
+            </div>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">20% and above</label>
+            </div>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">30% and above</label>
+            </div>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">40% and above</label>
+            </div>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">50% and above</label>
+            </div>
+            <div>
+              <input type="radio" class="radio_btns" name="range" />
+              <label for="">60% and above</label>
+            </div>
+          </div>
+        </div>
+        <div id="catg_templates"></div>
+        <div></div>
+        <div id="page_slide_div">
+          <div id="lft_num_arrow">
+            <i
+              class="fa fa-chevron-left"
+              onclick="sliderleft(event)"
+              id="pgnum_btn_left"
+              style="font-size: 32px"
+            ></i>
+          </div>
+          <div id="numbers_div"></div>
+          <div id="rht_num_arrow">
+            <i
+              class="fa fa-chevron-right"
+              onclick="sliderright(event)"
+              id="pgnum_btn_right"
+              style="font-size: 32px"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="position: relative" id="footer"></footer>
+  </body>
+</html>
+<script src="../js/category.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/navbar.js"></script>

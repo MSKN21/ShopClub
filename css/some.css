@@ -1,0 +1,97 @@
+.review-class {
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+
+.fdbkform {
+  background-color: rgb(6, 1, 53);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#fdbkhead {
+  display: block;
+  color: rgb(112, 167, 255);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 2px;
+}
+
+#fdbkinp {
+  width: 90%;
+  height: 150px;
+  border: 0;
+  font-size: 25px;
+  padding: 3px 10px;
+  border-style: solid;
+  border-bottom: 1px solid rgb(2, 0, 2);
+  background-color: rgba(24, 0, 63, 0.726);
+  color: rgb(164, 255, 184);
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 3px rgb(94, 81, 122);
+}
+
+#starhead {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(112, 167, 255);
+  margin: 5px;
+  margin-left: 20px;
+}
+
+#fdbkinp:focus {
+  outline: none;
+}
+
+.fdbkbtns {
+  height: 50px;
+}
+
+#starbox {
+  display: grid;
+  grid-template-columns: 6% 6% 6% 6% 6% 70%;
+  margin: 0px 15px;
+  margin-bottom: 20px;
+}
+
+.stars {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fdbkaddbtn {
+  float: right;
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(0, 140, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  padding: 4px 8px;
+  padding-bottom: 3px;
+}
+
+.fdbkaddbtn:hover {
+  background-color: rgb(189, 255, 113);
+}
+
+#starinfo {
+  color: rgb(126, 255, 176);
+  font-weight: bold;
+  letter-spacing: 1.5;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+#starerrmsg {
+  display: none;
+  font-size: 22px;
+  color: rgb(255, 83, 83);
+  margin: 5px;
+  margin-left: 20px;
+}

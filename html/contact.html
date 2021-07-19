@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>ShopClub.com</title>
+      <link rel="icon" href="../pics/sitelogo3.png" />
+      <link rel="stylesheet" href="../css/footer.css" />
+      <link rel="stylesheet" href="../css/nav_2.css" />
+      <link rel="stylesheet" href="../css/common.css" />
+      <link rel="stylesheet" href="../css/some.css" />
+
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+    </head>
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+
+    <div class="complete-form">
+      <div class="image-class">
+        <div class="query_div">
+          <h4>Ask Us</h4>
+          <form action="#">
+            <label for="">Your Name</label>
+            <input type="text" placeholder="Enter name" required/>
+            <label style="padding-left: 35px">Phone Number</label>
+            <input type="tel" placeholder="Enter no" required/>
+            <h5 for="">Your Question ?</h5>
+            <textarea
+            name=""
+            placeholder="Enter Your Question..."
+            id="fdbkinp"required
+            ></textarea>
+            <button id="qry_btn" style="border: none;">SEND</button>
+          </form>
+        </div>
+        <!-- stop -->
+        <!-- start -->
+        <div class="review-class">
+          <form onsubmit="feedbacksubmit(event)" class="fdbkform">
+            <label id="fdbkhead">We'd Love some feedback</label>
+            <textarea
+              onchange="setcomment(event)"
+              placeholder="Enter Your Comments"
+              id="fdbkinp"
+              required
+            ></textarea>
+            <div id="starhead">Rate our site</div>
+            <div id="starbox">
+              <i
+                onclick="countselected(1)"
+                class="fa fa-star stars"
+                id="str1"
+                style="font-size: 40px"
+              ></i>
+              <i
+                onclick="countselected(2)"
+                class="fa fa-star stars"
+                id="str2"
+                style="font-size: 40px"
+              ></i>
+              <i
+                onclick="countselected(3)"
+                class="fa fa-star stars"
+                id="str3"
+                style="font-size: 40px"
+              ></i>
+              <i
+                onclick="countselected(4)"
+                class="fa fa-star stars"
+                id="str4"
+                style="font-size: 40px"
+              ></i>
+              <i
+                onclick="countselected(5)"
+                class="fa fa-star stars"
+                id="str5"
+                style="font-size: 40px"
+              ></i>
+              <div id="starinfo"></div>
+            </div>
+            <!-- <div class="fdbkbtns">
+              <button class="fdbkaddbtn">SUBMIT</button>
+            </div> -->
+            <div id="starerrmsg">Give rating u want</div>
+            <div class="fdbkbtns">
+              <button class="fdbkaddbtn">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="content-class">
+        <div class="contact-class">
+          <h4 class="contact-head">Exchange/Return</h4>
+        </div>
+        <div>
+          <form class="form-class">
+            <div class="product-details">
+              <label class="contact_label">Enter your product ID:</label>
+              <input type="text" id="product-id" placeholder="Product Id" required/>
+            </div>
+            <div class="product-details">
+              <label class="contact_label">Phone No:</label>
+              <input
+                type="tel"
+                pattern="[0-9]{10}"
+                id="product-id"
+                placeholder="Your number"
+                required
+              />
+            </div>
+            <div class="product-details">
+              <label class="contact_label">Product Type:</label>
+              <select name="clothes" id="clothes" required>
+                <option value="shirts">Shirts</option>
+                <option value="pants">Pants</option>
+                <option value="trackshirts">Track Pants</option>
+                <option value="tshirts">Tshirts</option>
+              </select>
+            </div>
+            <div class="product-details">
+              <label class="contact_label">Product size:</label>
+              <select name="size" id="size" required>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+              </select>
+            </div>
+            <div class="product-details">
+              <label class="contact_label" for="">Return Type: </label>
+              <div id="returns">
+                <input type="radio" class="radio_btns" name="return_type" checked/>
+                <label class="radio_labl" for="">Exchange</label>
+                <input type="radio" class="radio_btns" name="return_type" />
+                <label class="radio_labl" for="">Return</label>
+              </div>
+            </div>
+            <div class="product-details">
+              <label class="contact_label">Reason</label>
+              <select name="product" id="product" required>
+                <option value="small">Size is small</option>
+                <option value="large">Size is large</option>
+                <option value="damaged">Product damaged</option>
+                <option value="bad">Color is bad</option>
+                <option value="bad">Other Reasons...</option>
+              </select>
+            </div>
+            <div class="product-details">
+              <label class="contact_label">Your Reason</label>
+              <textarea
+                name=""
+                id="reason_txt"
+                placeholder="Reason other than above..."
+                required
+              ></textarea>
+            </div>
+            <div class="submit_btn">
+              <button type="submit" class="submit">Submit</button>
+            </div>
+            <div class="product-details">
+              <label style="display: none">Thanks for filling the form</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer style="position: relative" id="footer"></footer>
+  </body>
+</html>
+<script src="../js/contact.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/navbar.js"></script>

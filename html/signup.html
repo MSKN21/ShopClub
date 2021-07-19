@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopClub.com</title>
+    <link rel="icon" href="../pics/sitelogo3.png" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <style>
+      body{
+        background-image: url("../pics/back2.jpg");
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div id="comp_logo_div">
+        <img src="../pics/sitelogo3.png" alt="" id="comp_logo" />
+        <img src="../pics/sitename.png" id="comp_name" />
+      </div>
+      <div id="sign_btns">
+        <a href="./signup.html">
+          <div id="out_btn">Sign Up</div>
+        </a>
+        <a href="./signin.html">
+          <div id="in_btn">Sign In</div>
+        </a>
+      </div>
+    </nav>
+    <div class="signupbox">
+      <div id="imagesec2"></div>
+      <div class="loginform">
+        <div>
+          <img id="userlogo" src="../pics/avatar.png" />
+        </div>
+        <h3 class="gapping">WELCOME</h3>
+        <h3 class="gapping" style="font-size: 24px">Create your account</h3>
+        <p class="gapping" style="font-size: 18px">
+          Sign up by entering the information below
+        </p>
+        <form id="signinform">
+          <div class="inputs">
+            <i class="fas fa-user-alt" style="font-size: 26px"></i>
+            <input type="text" placeholder="Username" id="usr_inp" required />
+          </div>
+          <div class="inputs">
+            <i class="fa fa-envelope" style="font-size: 26px"></i>
+            <input
+              type="email"
+              placeholder="Your Email"
+              id="mail_inp"
+              required
+            />
+          </div>
+          <div class="inputs">
+            <i class="fas fa-lock" style="font-size: 26px"></i>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              id="pass_inp"
+              required
+            />
+          </div>
+          <div class="inputs">
+            <i class="fas fa-lock" style="font-size: 26px"></i>
+            <input
+              type="password"
+              placeholder="Re enter Password"
+              id="pass_inp"
+              required
+            />
+          </div>
+          <div class="inputs">
+            <i
+              class="fas fa-phone-square-alt"
+              id="phnoicon"
+              style="font-size: 30px"
+            ></i>
+            <input
+              placeholder="Enter a 10 digit number"
+              type="tel"
+              pattern="[0-9]{10}"
+              id="phno_inp"
+              required
+            />
+          </div>
+          <button id="signinbtn">Create account</button>
+        </form>
+        <p class="gapping">Already have an account?</p>
+        <a href="./signin.html">
+          <div class="gapping">SIGN IN</div>
+        </a>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>
+<script src="../js/footer.js"></script>

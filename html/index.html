@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopClub.com</title>
+    <link rel="icon" href="../pics/sitelogo3.png" />
+    <link rel="stylesheet" href="../css/image_slide.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/nav_home.css" />
+    <link rel="stylesheet" href="../css/nav_2.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <style>
+      .myfa {
+        width: 50px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+
+    <div style="max-height: 800px" class="slideshow-container">
+      <div class="lft_rft">
+        <i
+          onclick="plusSlides(-1)"
+          class="fa fa-chevron-left"
+          id="mainslider_btn_left"
+          style="font-size: 36px"
+        ></i>
+      </div>
+
+      <div class="lft_rft">
+        <i
+          onclick="plusSlides(1)"
+          class="fa fa-chevron-right"
+          id="mainslider_btn_right"
+          style="font-size: 36px"
+        ></i>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pics/slide2.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pics/slide1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pics/slide3.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="../pics/slide4.jpg" style="width: 100%" />
+      </div>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="content_box">
+      <h2 class="heads" onclick="type(event)" id="men">Mens Wear</h2>
+      <div class="mens_box" id="men_info">
+        <div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderleft(event)"
+              class="fa fa-chevron-left"
+              id="slider_btn_left"
+              style="font-size: 36px"
+            ></i>
+          </div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderright(event)"
+              class="fa fa-chevron-right"
+              id="slider_btn_right"
+              style="font-size: 36px"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <h2 class="heads" onclick="type(event)" id="women">Womens Wear</h2>
+      <div class="womens_box" id="women_info">
+        <div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderleft(event)"
+              class="fa fa-chevron-left"
+              id="slider_btn_left"
+              style="font-size: 36px"
+            ></i>
+          </div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderright(event)"
+              class="fa fa-chevron-right"
+              id="slider_btn_right"
+              style="font-size: 36px"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <h2 class="heads" onclick="type(event)" id="kid">Kids Wear</h2>
+      <div class="kids_box" id="kids_info">
+        <div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderleft(event)"
+              class="fa fa-chevron-left"
+              id="slider_btn_left"
+              style="font-size: 36px"
+            ></i>
+          </div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderright(event)"
+              class="fa fa-chevron-right"
+              id="slider_btn_right"
+              style="font-size: 36px"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <h2 class="heads" onclick="type(event)" id="home">Home & Living</h2>
+      <div class="home_box" id="home_info">
+        <div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderleft(event)"
+              class="fa fa-chevron-left"
+              id="slider_btn_left"
+              style="font-size: 36px"
+            ></i>
+          </div>
+          <div class="lft_rft">
+            <i
+              onclick="sliderright(event)"
+              class="fa fa-chevron-right"
+              id="slider_btn_right"
+              style="font-size: 36px"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="position: relative" id="footer"></footer>
+  </body>
+</html>
+<script src="../js/slider.js"></script>
+<script src="../js/image_slider.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/navbar.js"></script>

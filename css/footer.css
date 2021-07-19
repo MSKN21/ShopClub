@@ -1,0 +1,66 @@
+footer {
+  height: 80px;
+  background-color: rgb(58, 40, 46);
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.fol_box {
+  text-align: center;
+  float: right;
+  margin-right: 15px;
+}
+
+.fol_titl {
+  font-size: 20px;
+}
+
+#copyright {
+  margin-top: 15px;
+  margin-left: 50px;
+  /* text-align: center; */
+  font-size: 19px;
+}
+
+#copyright p {
+  margin-left: 20px;
+}
+
+.myfa {
+  padding: 10px 12px;
+  font-size: 26px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+  border-radius: 3px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

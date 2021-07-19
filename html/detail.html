@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/detail.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/nav_2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ShopClub.com</title>
+    <link rel="icon" href="../pics/sitelogo3.png" />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div id="details_mainsec">
+      <div id="details_div">
+        <div id="image_sec_div">
+          <div id="all_img_div">
+            <div id="1" class="det_img selected">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt1.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div id="2" class="det_img">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt2.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div id="3" class="det_img">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt3.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div id="4" class="det_img">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt4.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div id="5" class="det_img">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt5.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+            <div id="6" class="det_img">
+              <img
+                onclick="addselected(event)"
+                src="../pics/shirt6.webp"
+                height="100%"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div id="selctd_img">
+            <img
+              id="selct_image"
+              src="../pics/shirt1.webp"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div id="details_info_div">
+          <div
+            class="dets_title_div"
+            style="
+              border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+              padding-bottom: 16px;
+            "
+          >
+            <h2 class="dets_head1">Campus Sutra</h2>
+            <p style="font-size: 20px; padding: 3px 0px">
+              Men Blue Colourblocked Round Neck T-shirt
+            </p>
+            <p class="normalp">
+              <b>4.8</b
+              ><span
+                class="fa fa-star checked"
+                style="color: rgb(255, 222, 34)"
+              ></span>
+              | 8.9k Ratings
+            </p>
+          </div>
+          <h4 class="dets_head1" style="margin-top: 5px">
+            Rs.427 <s> Rs.949</s> (55% OFF)
+          </h4>
+          <p
+            style="
+              font-size: 18px;
+              padding: 3px 0px;
+              font-weight: bold;
+              color: orange;
+            "
+          >
+            inclusive of all taxes
+          </p>
+          <h4 class="dets_head2">SELECT SIZE</h4>
+          <div class="size_div" id="size_div">
+            <div onclick="sizeselected(event)" class="sizes">S</div>
+            <div onclick="sizeselected(event)" class="sizes active">M</div>
+            <div onclick="sizeselected(event)" class="sizes">L</div>
+            <div
+              onclick="sizeselected(event)"
+              class="sizes"
+              style="padding: 12px 16px"
+            >
+              XL
+            </div>
+            <div
+              onclick="sizeselected(event)"
+              class="sizes"
+              style="padding: 14px 10px; padding-left: 12px"
+            >
+              XXL
+            </div>
+          </div>
+          <div class="main_btns_div">
+            <div class="main_btns1">
+              <i class="fa fa-shopping-cart" style="font-size: 32px"></i> BUY
+              NOW
+            </div>
+            <div class="main_btns2" onclick="bookmark(event)">
+              <i class="fa fa-heart-o" style="font-size: 24px"></i>
+              WISHLIST
+            </div>
+          </div>
+          <div
+            style="
+              border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+              padding-bottom: 16px;
+            "
+          >
+            <h4 class="dets_head2">
+              DELIVERY OPTIONS
+              <i class="fa fa-truck" style="font-size: 24px; opacity: 0.8"></i>
+            </h4>
+            <div id="pin_box">
+              <input
+                id="pin_inp"
+                placeholder="Ex: 560064"
+                pattern="{0-9}[6]"
+                type="tel"
+              />
+              <label for=""><b>Enter Pincode</b> </label>
+            </div>
+            <div class="dets_head3">
+              <i class="fas fa-shipping-fast" style="font-size: 24px"></i>
+              &nbsp;Get it by Tue, Jul 20
+            </div>
+            <div class="dets_head3">
+              <i class="fa fa-thumbs-o-up" style="font-size: 30px"></i>
+              &nbsp; Pay on delivery available
+            </div>
+            <div class="dets_head3">
+              <i class="fa fa-refresh" style="font-size: 24px"></i>
+              &nbsp; Easy 30 days return & exchange available
+            </div>
+            <div style="margin-top: 5px; font-size: 20px; padding: 3px 0px">
+              100% Original Products
+            </div>
+          </div>
+          <div>
+            <h4 class="dets_head2">
+              BEST OFFERS
+              <i class="fa fa-tag" style="font-size: 24px; color: orange"></i>
+            </h4>
+            <h5 class="dets_head3">Best Price: Rs. 277</h5>
+            <ul>
+              <li>Applicable on: Orders above Rs. 1199</li>
+              <li>Coupon code: YAY150</li>
+              <li>Expires in: 1 hours 31 minutes</li>
+              <li>
+                Coupon Discount: Rs. 150 off (check cart for final savings)
+              </li>
+            </ul>
+            <h5 class="dets_head3">EMI option available</h5>
+            <ul>
+              <li>EMI starting from Rs.20/month</li>
+            </ul>
+          </div>
+        </div>
+        <div id="product_info_div">
+          <h1 style="font-size: 26px">
+            PRODUCT DETAILS
+            <i
+              class="fa fa-file-text-o"
+              style="font-size: 28px; color: brown"
+            ></i>
+          </h1>
+          <p>Blue colourblocked T-shirt, has a round neck, and long sleeves</p>
+          <h6 class="prod_head1">Size & Fit</h6>
+          <p>The model (height 6') is wearing a size M</p>
+          <h6 class="prod_head1">Material & Care</h6>
+          <p>100% cotton</p>
+          <p>Machine-wash</p>
+          <h6 class="prod_head1">Specifications</h6>
+          <div id="specs_grid">
+            <div id="specs_div">
+              <h5>Fabric</h5>
+              <p>Cotton</p>
+            </div>
+            <div id="specs_div">
+              <h5>Fit</h5>
+              <p>Regular Fit</p>
+            </div>
+            <div id="specs_div">
+              <h5>Length</h5>
+              <p>Regular</p>
+            </div>
+            <div id="specs_div">
+              <h5>Multipack Set</h5>
+              <p>Single</p>
+            </div>
+            <div id="specs_div">
+              <h5>Neck</h5>
+              <p>Round Neck</p>
+            </div>
+            <div id="specs_div">
+              <h5>Pattern</h5>
+              <p>Stripes</p>
+            </div>
+            <div id="specs_div">
+              <h5>Sleeve Length</h5>
+              <p>Long Sleeves</p>
+            </div>
+            <div id="specs_div">
+              <h5>Wash Care</h5>
+              <p>Machine Wash</p>
+            </div>
+          </div>
+          <h6 class="prod_head1">Complete The Look</h6>
+          <p>
+            Designed by the team at Campus Sutra, you're definitely in for a
+            style treat with this cotton T-shirt. When you're attending a
+            concert, rock this blue piece with dark denims, leather boots, and a
+            classic leather jacket.
+          </p>
+        </div>
+        <div id="product_review_div">
+          <h2>
+            Ratings
+            <i
+              class="fas fa-star"
+              style="font-size: 30px; color: chocolate"
+            ></i>
+          </h2>
+          <div id="star_box">
+            <div id="star_rated">
+              <h4>
+                4.8
+                <i
+                  class="fas fa-star"
+                  style="font-size: 22px; color: rgb(136, 255, 0)"
+                ></i>
+              </h4>
+              <p>8.9k Verified Buyers</p>
+            </div>
+            <div id="stars_info">
+              <p>
+                5 <i class="fas fa-star" style="font-size: 14px"></i>&nbsp;
+                <i class="mainbar"><i id="inn_bar5"></i></i>
+                <b style="float: right"> 5546</b>
+              </p>
+              <p>
+                4 <i class="fas fa-star" style="font-size: 14px"></i>&nbsp;
+                <i class="mainbar"><i id="inn_bar4"></i></i>
+                <b style="float: right"> 3346</b>
+              </p>
+              <p>
+                3 <i class="fas fa-star" style="font-size: 14px"></i>&nbsp;
+                <i class="mainbar"><i id="inn_bar3"></i></i>
+                <b style="float: right"> 1126</b>
+              </p>
+              <p>
+                2 <i class="fas fa-star" style="font-size: 14px"></i>&nbsp;
+                <i class="mainbar"><i id="inn_bar2"></i></i>
+                <b style="float: right"> 542</b>
+              </p>
+              <p>
+                1&nbsp;
+                <i class="fas fa-star" style="font-size: 14px"></i>&nbsp;
+                <i class="mainbar"><i id="inn_bar1"></i></i>
+                <b style="float: right"> 510</b>
+              </p>
+            </div>
+          </div>
+          <h5 style="font-size: 22px; padding: 10px 0">Customer Reviews</h5>
+          <div id="reviewbox"></div>
+          <p style="font-size: 18px; padding-top: 12px">
+            Product Code: <b>10016983</b>
+          </p>
+          <p style="font-size: 18px; padding-top: 8px">
+            Seller: <b>Flashstar commerce</b>
+          </p>
+        </div>
+      </div>
+      <h3>SIMILAR PRODUCTS</h3>
+      <div id="similar_prod"></div>
+    </div>
+    <footer style="position: relative" id="footer"></footer>
+  </body>
+</html>
+<script src="../js/detail.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/navbar.js"></script>
